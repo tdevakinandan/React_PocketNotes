@@ -1,0 +1,77 @@
+.sidebar {
+    width: 30vw; /* 30% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    background-color: #f0f0f0; /* Sidebar background color */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width */
+    position: fixed; /* Keep sidebar fixed in place */
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.head_note {
+    text-align: center; /* Centers the text horizontally */
+}
+.floating-button {
+    position: absolute; /* Position relative to the sidebar */
+    bottom: 40px; /* 40px from the bottom */
+    right: 30px; /* 30px from the right */
+}
+
+.btn {
+    background-color: #23009d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+/* Add these styles to Sidebar.css */
+
+.group-list {
+    margin-top: 20px;
+    font-size: 18px; /* Adjust the font size here */
+    overflow-y: auto; /* Ensure scrolling within group-list if needed */
+}
+
+.group-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 50px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    font-size: 18px; /* Adjust the font size here */
+}
+
+.group-item:hover {
+    background-color: #e0e0e0; /* Change this color to whatever suits your design */
+}
+
+.group-logo {
+    width: 40px; /* Size of the logo circle */
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px; /* Space between logo and name */
+    margin-left: 40px; /* Move the logo slightly to the right */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color for the initials */
+    font-weight: bold;
+    font-size: 18px; /* Font size for initials */
+    text-transform: uppercase;
+}
+
+.group-name {
+    font-size: 18px; /* Adjust the font size here */
+}
+
+.group-item:last-child {
+    border-bottom: none;
+}
+

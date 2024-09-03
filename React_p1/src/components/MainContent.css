@@ -1,0 +1,61 @@
+/* MainContent.css */
+.main-content {
+    width: 70%; /* 70% of the viewport width */
+    height: 100vh; /* Full viewport height */
+    margin-left: 30%; /* Offset by the sidebar width */
+    background-color: #DAE5F5; /* Main content background color */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width */
+    display: flex; /* Use Flexbox for centering */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    overflow-y: auto; /* Allows vertical scrolling if content overflows */
+}
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #292929;
+  }
+
+  .content-wrapper {
+    width: 70%;
+    background-color: #dae5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .illustration {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #292929;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  .encryption {
+    margin-top: 1rem;
+    color: #292929;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .lock-icon {
+    margin-right: 5px;
+  }
+  
